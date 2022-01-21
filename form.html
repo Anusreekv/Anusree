@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blood donation</title>
+      <link rel="stylesheet" type="text/css" href="blood.css/">
+  </head>
+  <body>
+    <h1>GIVE BLOOD SAVE LIFE</h1>
+    <h2>Doners Registration Form</h2>
+    <form>
+      Name<input type="text"placeholder="Full Name"/><br/>
+      Address<br/>
+      <textarea rows="6"placeholder="Address"></textarea><br/>
+      Dte of birth<input type="date"placeholder="Date Of Birth"/><br/>
+      Male:<input type="radio"name="Gender"value="male"/><br/>
+      Female:<input type="radio"name="Gender"value="female"/><br/>
+      Others:<input type="radio"name="Gender"value="others"/><br/>
+      Blood Groups<input list="Blood Groups"name="Blood Group"/>
+      <datalist id="Blood Groups">
+        <option>A+</option>
+        <option>B+</<option>
+        <option>O+</<option>
+        <option>AB+</<option>
+        <option>A-</<option>
+        <option>B-</<option>
+        <option>AB-</<option>
+        <option>O-</<option>
+      </datalist><br/>
+      <input type="text" placeholder="Mob.No."pattern="\d{10}"title="Mobile No.should have 10 digits"/><br/>
+      <input type="email"placeholder="email"/><br/>
+      Feedback<br/>
+      <textarea rows="10"placeholder="Feedback"></textarea><br/>
+      <input type="Submit"/><br/>
+    </form>
+  </body>
+</html>
