@@ -1,14 +1,14 @@
 #list{
     list-style-type: disc;
 }
-h1{
+#h1{
  color:red;
  text-align:center;
 }
-p{
+#p{
    text-align:center;
 }
-h2{
+#h2{
  color:darkblue;
   }
   
